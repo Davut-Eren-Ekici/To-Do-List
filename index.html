@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List | Davut Eren Ekici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <div class="input-area">
+            <br>
+            <input  type="text" id="taskInput" placeholder="Görevinizi Giriniz:"><br>
+            <button id="AddBtn">Ekle</button>
+        </div>
+
+        <div class="notes-container">
+        <!-- Görev listesi yeri -->
+         <div class="notes">
+            <H2>Görevler</H2>
+            <ul id="taskList">
+                <li>JavaScript Çalış</li>
+                
+            </ul>
+         </div>
+
+         <div class="completed-notes">
+                <h2>Tamamlananlar</h2>
+         <ul id="completedList">
+            
+        </ul>
+         </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

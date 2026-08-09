@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #111826;
+    color: white;
+}
+.todo-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:#2d3952 ;
+    height: 600px;
+    width: 900px;
+    padding: 30px;
+    border-radius: 20px;
+}
+#taskInput{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#AddBtn{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 45px;
+    background: #6d7992;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.notes-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.notes,
+.completed-notes{
+    width: 350px;
+    min-width: 500px;
+    padding: 20px;
+    background: #fffdf5;
+    color: #222;
+    border-radius: 10px;
+}
