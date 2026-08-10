@@ -54,3 +54,6 @@ body{
     color: #222;
     border-radius: 10px;
 }
+.completed{
+    text-decoration: line-through;
+}                                                
